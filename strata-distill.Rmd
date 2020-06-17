@@ -125,7 +125,7 @@ gof_ds(past2.hn, plot = FALSE)
 gof_ds(past3.hn, plot = FALSE)
 ```
 
-Further exploration of analyses involving stratification can be found in the [example of dung survey analysis](https://examples.distancesampling.org/Distance-dung/dung-distill.html).
+Further exploration of analyses involving stratification can be found in the [example of dung survey analysis](https://examples.distancesampling.org/Distance-mult/multipliers-distill.html).
 
 # Comments
 
