@@ -74,11 +74,11 @@ Fit half-normal  key functions without adjustments to each pasture separately af
 
 ```{r}
 past1.hn <- ds(data=sasp.past1, key="hn", adjustment=NULL,
-              transect="point", convert.units=conversion.factor, truncation="5%")
+              transect="point", convert_units=conversion.factor, truncation="5%")
 past2.hn <- ds(data=sasp.past2, key="hn", adjustment=NULL,
-              transect="point", convert.units=conversion.factor, truncation="5%")
+              transect="point", convert_units=conversion.factor, truncation="5%")
 past3.hn <- ds(data=sasp.past3, key="hn", adjustment=NULL,
-              transect="point", convert.units=conversion.factor, truncation="5%")
+              transect="point", convert_units=conversion.factor, truncation="5%")
 ```
 
 The total AIC for the model that fits separate detection functions to each pasture is the sum of the AICs for the individual pastures.
@@ -93,7 +93,7 @@ This model is much simpler to fit because there is only a single call to `ds()` 
 
 ```{r}
 model.pooled <- ds(data=Savannah_sparrow_1980, key="hn", adjustment=NULL,
-                   transect="point", convert.units = conversion.factor, truncation = "5%")
+                   transect="point", convert_units = conversion.factor, truncation = "5%")
 model.pooled.AIC <- AIC(model.pooled)
 ```
 
